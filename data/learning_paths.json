@@ -1,0 +1,104 @@
+{
+  "_comment": "Ordered reading lists returned by warframe_learning_path. Each step is {page, why, ts} where page is an exact wiki title, why tells the agent WHY this step matters (so it can teach rather than list), and ts is the timestamp in the bundled beginner-guide video. The beginner path deliberately follows the order a new player meets these systems, not wiki alphabetical order.",
+
+  "paths": {
+    "absolute-beginner": {
+      "title": "Absolute beginner - your first few hours",
+      "audience": "Never played, or played once and bounced off. Overwhelmed by the UI.",
+      "goal": "Reach Mars without feeling lost, and understand what the game is asking of you.",
+      "steps": [
+        { "page": "Star Chart", "why": "The map is the whole progression spine. Learn that nodes unlock the next node, and that planets unlock via Junctions.", "ts": "00:58" },
+        { "page": "Junction", "why": "Junctions are the gate between planets. Each lists 4 tasks; do them and you move on. This is your to-do list.", "ts": "01:26" },
+        { "page": "Quest", "why": "Main story quests unlock the biggest systems. If you are stuck, you are probably missing a quest.", "ts": "07:12" },
+        { "page": "Maneuvers", "why": "Bullet jumping is the movement skill. New players who cannot keep up with squads are almost always just walking.", "ts": "09:46" },
+        { "page": "Mastery Rank", "why": "Your account level. It gates weapons and quests, and it is raised by levelling NEW gear.", "ts": "11:59" },
+        { "page": "Market", "why": "Buy weapon and Warframe BLUEPRINTS with Credits here. Never buy finished items with Platinum.", "ts": "14:46" },
+        { "page": "Foundry", "why": "Where blueprints become items, and where crafting timers run. Expect to always have something cooking.", "ts": "25:49" },
+        { "page": "Mod", "why": "THE answer to 'why am I doing no damage'. Mods are the entire power system.", "ts": "39:28" },
+        { "page": "Warframes", "why": "Which of the starter frames you picked, and what you might want next.", "ts": "34:22" },
+        { "page": "Resources", "why": "You are collecting dozens of materials with no idea why. That is normal - they all matter later.", "ts": "29:53" }
+      ]
+    },
+
+    "getting-stronger": {
+      "title": "Getting stronger - mods, capacity and your first real build",
+      "audience": "Past Mars. Enemies around level 30-40 are starting to feel spongy.",
+      "goal": "Have one Warframe and one weapon that comfortably clear the Star Chart.",
+      "steps": [
+        { "page": "Mod", "why": "Revisit capacity, drain and why matching polarity halves cost.", "ts": "39:28" },
+        { "page": "Orokin Catalyst", "why": "Doubling a weapon's mod capacity is the single biggest power jump available early ('potato').", "ts": "41:03" },
+        { "page": "Orokin Reactor", "why": "The same doubling, but for a Warframe.", "ts": "41:03" },
+        { "page": "Polarity", "why": "Why a maxed mod does not fit, and what Forma actually changes.", "ts": "41:36" },
+        { "page": "Forma", "why": "Resets the item to rank 0 in exchange for a permanent polarity. Expect to use several.", "ts": "41:36" },
+        { "page": "Damage/Viral Damage", "why": "Viral multiplies damage to health and is the default element for a reason.", "ts": "44:12" },
+        { "page": "Damage", "why": "How damage types combine, and what each faction is weak to.", "ts": "44:12" },
+        { "page": "Endo", "why": "Upgrading mods is where your power actually comes from. This is the usual bottleneck.", "ts": "01:07:24" },
+        { "page": "Ayatan Sculpture", "why": "The reliable early source of Endo, from Maroo's weekly treasure hunt.", "ts": "01:10:58" },
+        { "page": "Companion", "why": "A companion adds real utility and survivability for very little cost.", "ts": "01:22:25" }
+      ]
+    },
+
+    "primes-and-platinum": {
+      "title": "Primes, relics, and earning Platinum without paying",
+      "audience": "Comfortable on the Star Chart. Wants better gear and free Platinum.",
+      "goal": "Understand the Relic -> Fissure -> Prime pipeline, and how to trade for Platinum.",
+      "steps": [
+        { "page": "Prime", "why": "What 'Prime' means and why Prime gear is the upgrade path.", "ts": "01:59:16" },
+        { "page": "Void Relic", "why": "Relics hold Prime parts. Refining them raises your odds of the rare part.", "ts": "01:25:06" },
+        { "page": "Void Fissure", "why": "Where you crack relics - and why running them in a squad is far better than solo.", "ts": "01:25:06" },
+        { "page": "Trading", "why": "Turn duplicate Prime parts into Platinum. This is how free-to-play players get everything.", "ts": "01:30:34" },
+        { "page": "Ducats", "why": "Dump worthless Prime parts for Ducats instead of hoarding them.", "ts": "01:30:34" },
+        { "page": "Baro Ki'Teer", "why": "The travelling Void Trader who sells Primed mods for Ducats + Credits.", "ts": "01:30:34" },
+        { "page": "Prime Resurgence", "why": "How vaulted Primes come back, using farmable Aya.", "ts": "01:25:06" }
+      ]
+    },
+
+    "operator-and-focus": {
+      "title": "Operator, Amps and Focus",
+      "audience": "Finished The War Within. Confused by the child, the school tree and Lens things.",
+      "goal": "Have a working Amp and a Focus school worth using.",
+      "steps": [
+        { "page": "Operator", "why": "Who the Operator is and when you are expected to use them.", "ts": "01:40:48" },
+        { "page": "Amp", "why": "The Operator's weapon. Required for Eidolons - Warframe weapons barely scratch their shields.", "ts": "01:54:54" },
+        { "page": "Focus", "why": "The five schools and what each is for. Zenurik's energy regen is the usual first pick.", "ts": "01:43:14" },
+        { "page": "Lens", "why": "How excess affinity becomes Focus, and where to install one.", "ts": "01:47:02" },
+        { "page": "Sanctuary Onslaught", "why": "The fastest Focus and affinity farm in the game.", "ts": "01:51:21" },
+        { "page": "Eidolon", "why": "The night-time boss chain that rewards Arcanes and big Focus gains.", "ts": "01:39:19" },
+        { "page": "Arcane", "why": "Socketable enhancements that are a large part of late-game power.", "ts": "01:36:20" }
+      ]
+    },
+
+    "open-worlds": {
+      "title": "The open worlds",
+      "audience": "Seen Cetus / Fortuna / Deimos and has no idea what any of it is for.",
+      "goal": "Know what each zone is for and which one is worth your time.",
+      "steps": [
+        { "page": "Bounty", "why": "The repeatable contracts that drive all open-world progression.", "ts": "01:18:09" },
+        { "page": "Syndicate", "why": "Standing systems, daily caps, and why you should wear a sigil.", "ts": "25:11" },
+        { "page": "Plains of Eidolon", "why": "Cetus - the first open world, and home of the Eidolons.", "ts": "01:39:19" },
+        { "page": "Orb Vallis", "why": "Fortuna - Corpus open world, source of Amps from Vox Solaris and of Profit-Taker.", "ts": "01:54:54" },
+        { "page": "Cambion Drift", "why": "Deimos - Infested open world, home of the Helminth and Necramechs.", "ts": "02:26:44" },
+        { "page": "Zariman", "why": "Mid/late-game zone with its own vendors and Incarnon-adjacent rewards.", "ts": "02:05:27" },
+        { "page": "Duviri", "why": "The roguelite open world that feeds The Circuit.", "ts": "02:12:51" }
+      ]
+    },
+
+    "endgame-loop": {
+      "title": "The endgame loop",
+      "audience": "Cleared the Star Chart. Wants to know what the actual weekly routine is.",
+      "goal": "Understand Steel Path, Incarnons, Archon Shards and the Helminth.",
+      "steps": [
+        { "page": "The Steel Path", "why": "The harder replay of the whole chart, and the gate to much of the endgame.", "ts": "02:06:15" },
+        { "page": "Arbitration", "why": "Where Galvanized mods - the backbone of endgame weapons - come from.", "ts": "01:01:33" },
+        { "page": "The Circuit", "why": "The roguelite mode that awards Incarnon Genesis adapters.", "ts": "02:00:57" },
+        { "page": "Incarnon", "why": "Transforms old weapons into some of the best in the game.", "ts": "02:05:27" },
+        { "page": "Helminth", "why": "Subsume a Warframe to put one of its abilities onto another.", "ts": "02:26:44" },
+        { "page": "Archon Shard", "why": "Permanent per-frame stat boosts installed through the Helminth.", "ts": "02:32:57" },
+        { "page": "Netracells", "why": "The weekly mission that reliably drops Archon Shards.", "ts": "02:35:36" },
+        { "page": "Deep Archimedea", "why": "Weekly high-level content with modifiers and shard rewards.", "ts": "02:35:08" },
+        { "page": "Railjack", "why": "Your ship - needed for quests, and one of the best credit farms.", "ts": "02:15:07" },
+        { "page": "Necramech", "why": "Required for some content, and worth knowing about before it blocks you.", "ts": "02:26:44" }
+      ]
+    }
+  }
+}
